@@ -1,0 +1,16 @@
+import random
+print("Password Generator")
+while True:
+    input("Press ENTER to generate password. ")
+    char1 = random.choice("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!?&%+")
+    char2 = random.choice("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!?&%+")
+    char3 = random.choice("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!?&%+")
+    char4 = random.choice("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!?&%+")
+    char5 = random.choice("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!?&%+")
+    char6 = random.choice("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!?&%+")
+    char7 = random.choice("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!?&%+")
+    char8 = random.choice("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!?&%+")
+    num1= random.randint(1,10)
+    num2= random.randint(1,10)
+    sc1 = random.choice("!?&%+")
+    print(char1,char2,char3,char4,char5,char6,char7,char8,num1,num2,sc1, sep="")
